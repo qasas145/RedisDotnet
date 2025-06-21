@@ -11,6 +11,6 @@
 - `docker container start my-redis`
 
 - `docker container exec -it my-redis redis-cli`
-
+> you can use also ***___Podman___*** if you don't have docker
 
 > if you want to see the mapped commands of dotnet ones in redis run `monitor` in redis and start the Dotnet application
