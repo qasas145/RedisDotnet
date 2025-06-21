@@ -2,7 +2,7 @@
 
 > First you have to install redis 
 
-***Run these commands***
+***For installation run these commands***
 
 - `docker network create my-network`
 
@@ -11,3 +11,6 @@
 - `docker container start my-redis`
 
 - `docker container exec -it my-redis redis-cli`
+
+
+> if you want to see the mapped commands of dotnet ones in redis run `monitor` in redis and start the Dotnet application
